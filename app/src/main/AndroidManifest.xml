@@ -11,6 +11,18 @@
         android:theme="@style/Theme.Corazon">
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_info"
+            android:exported="true" />
+        <activity
+            android:name=".activity_home"
+            android:exported="true" />
+        <activity
+            android:name=".activity_about"
+            android:exported="true" />
+        <activity
+            android:name=".activity_splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
